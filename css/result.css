@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/* フォントサイズをデフォルトの16pxで基準に */
+html {
+    font-size: 100%;
+}
+
+p {
+    line-height: 1.7;
+}
+
+#result {
+    width: 200px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.result{
+    text-align: center;
+}
+
+.text {
+    text-decoration: underline;
+    text-decoration-color: rgb(46, 195, 228);
+    text-decoration-thickness: 3px;
+    font-weight: bold;
+}
+
+.re_button {
+    display       : inline-block;
+    border-radius : 5%;          /* 角丸       */
+    font-size     : 12pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 12px;   /* 余白       */
+    background    : #e467e9;     /* 背景色     */
+    color         : #fff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    border        : 2px solid #e467e9;    /* 枠の指定 */
+}
+.re_button:hover {
+    color         : #fff;     /* 背景色     */
+    background    : rgb(46, 195, 228);     /* 文字色     */
+}
