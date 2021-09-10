@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow">
+    <title>index.html</title>
+    <meta name="description" content="誰でも簡単にタロット占いが試せるサイトです。">
+
+    <!-- ファビコンの指定 -->
+    <link rel="icon" href="images/logo.jpg" type="image/">
+
+    <!-- Font Awesomeの使用 -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <!-- Google Font(Philosopher)の使用 -->
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+
+    <!-- CSSの読み込み -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="home" class="big-bg">
+        <header class="page-header wrapper">
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="index.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="home-content wrapper">
+            <h1 class="page-title loading">
+                <span data-text="タ">タ</span>
+                <span data-text="ロ">ロ</span>
+                <span data-text="ッ">ッ</span>
+                <span data-text="ト">ト</span>
+                <span data-text="C">C</span>
+                <span data-text="A">A</span>
+                <span data-text="F">F</span>
+                <span data-text="E">E</span>
+            </h1>
+            <p class="mds">このサイトは皆さんにタロット占いを気軽に</p>
+            <p class="mds">楽しんでもらう為のサイトです。</p>
+            <input type="button" class="re_button" value="運勢を占う" onclick="myRndLink()">
+        </div>
+    </div>
+
+
+    <div class="home-main">
+        <h2>はじめに</h2>
+        <p>
+            タロット占いとは78枚のカードを使った占いです。大きく分けて2種類のカードに分かれます。<br>
+            構成は大アルカナという22枚の絵札と小アルカナという56枚の数札です。<br>
+        </p>
+    </div>
+
+    <div class="wrapper grid">
+        <div class="item">
+            <!-- <img src="images/da.jpg" alt="大アルカナ" id="slide_img" class="slider"> -->
+            <img src="images/da.jpg" alt="大アルカナ">
+            <ul class="sub-home">
+                <li><a href="daiarukana.html">大アルカナとは</a></li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <img src="images/sa.jpg" alt="小アルカナ">
+            <ul class="sub-home">
+                <li><a href="syouarukana.html">小アルカナとは</a></li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <img src="images/sp.jpg" alt="スプレッド">
+            <ul class="sub-home">
+                <li><a href="supureddo.html">スプレッドとは</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.grid -->
+
+
+    <!-- footer -->
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; LaLaCOMPANY 2021</small></p>
+        </div>
+    </footer>
+    <div id="page_top"><a href="#"></a></div>
+
+    <!-- JSの読み込み -->
+    <script src="script.js"></script>
+
+    <!-- jQの読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+
+</html>
